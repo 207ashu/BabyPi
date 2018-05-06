@@ -42,6 +42,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
+                android:onClick="sleepingMonitorCLicked"
                 android:orientation="vertical">
 
                 <ImageView

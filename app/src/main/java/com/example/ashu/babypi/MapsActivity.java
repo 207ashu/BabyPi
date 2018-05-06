@@ -13,9 +13,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity implements  com.google.android.gms.maps.OnMapReadyCallback{
 
-    static final LatLng HAMBURG = new LatLng(53.558, 9.927);
-    static final LatLng KIEL = new LatLng(53.551, 9.993);
-    private GoogleMap map;
+    
     com.google.android.gms.maps.SupportMapFragment mapFragment;
 
     @Override
