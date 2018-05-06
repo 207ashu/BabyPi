@@ -23,4 +23,10 @@ public void liveLocationClcked(android.view.View view) {
         android.content.Intent i=new android.content.Intent(this,WebActivity.class);
         startActivity(i);
     }
+
+
+    public void stsClcked(View view) {
+        android.content.Intent i=new android.content.Intent(this,WebActivity3.class);
+        startActivity(i);
+    }
 }
