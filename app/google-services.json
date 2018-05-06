@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "789454879123",
+    "firebase_url": "https://babypi-4834f.firebaseio.com",
+    "project_id": "babypi-4834f",
+    "storage_bucket": "babypi-4834f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789454879123:android:1451313c2dde4519",
+        "android_client_info": {
+          "package_name": "com.example.ashu.babypi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789454879123-mlu6ahn0547mcpa41malod51kes4dfkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashu.babypi",
+            "certificate_hash": "9d4e717531a9e4da32b30cbb0299191ad63e1d01"
+          }
+        },
+        {
+          "client_id": "789454879123-lc542enha3ltvmdsseef0k67nsl305t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhpH_9aUHarXI7G5CKpkXUZdco4YkzyWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789454879123-lc542enha3ltvmdsseef0k67nsl305t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

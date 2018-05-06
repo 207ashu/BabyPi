@@ -42,7 +42,8 @@
         <activity
             android:name=".WebActivity"
             android:theme="@style/WebTheme" />
-        <activity android:name=".WebActivity3"></activity>
+        <activity android:name=".WebActivity3"
+            android:theme="@style/WebTheme"></activity>
     </application>
 
 </manifest>
