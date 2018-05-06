@@ -32,20 +32,18 @@ public class MapsActivity extends AppCompatActivity implements  com.google.andro
                         googleMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
                         googleMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(37.4233438, -122.0728817))
-                                .title("LinkedIn")
+                                .position(new LatLng(28.490004, 77.079162))
+                                .title("Here's your Baby")
                                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
                         googleMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(37.4629101,-122.2449094))
-                                .title("Facebook")
-                                .snippet("Facebook HQ: Menlo Park"));
+                                .position(new LatLng(28.490009,77.079167))
+                                .title("And Here You Are"));
 
-                        googleMap.addMarker(new MarkerOptions()
-                                .position(new LatLng(37.3092293, -122.1136845))
-                                .title("Apple"));
 
-                        googleMap.animateCamera(com.google.android.gms.maps.CameraUpdateFactory.newLatLngZoom(new LatLng(37.4233438, -122.0728817), 10));
+
+                        googleMap.animateCamera(com.google.android.gms.maps.CameraUpdateFactory.newCameraPosition(new com.google.android.gms.maps.model.CameraPosition.Builder().target(new LatLng(28.490004, 77.079162)).zoom(15.0f).build()));
+
                     }
                 });
 
