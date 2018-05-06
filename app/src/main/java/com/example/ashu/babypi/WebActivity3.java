@@ -13,7 +13,7 @@ public class WebActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web3);
-        webView=findViewById(R.id.webView);
+        webView=findViewById(R.id.webView3);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("http://10.1.201.162:5000#new");
