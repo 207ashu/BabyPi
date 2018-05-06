@@ -10,4 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+public void liveLocationClcked(android.view.View view) {
+    android.content.Intent i=new android.content.Intent(this,MapsActivity.class);
+    startActivity(i);
+    }
 }
